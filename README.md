@@ -1,4 +1,3 @@
-# 💤 LazyVim
+# Fred's LazyVim Custom Config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Hello, this is my LazyVim config. I also have an NvChad config, which you can see [here](https://github.com/fred-gutierrez/nvchad-myconfig). However, I prefer using LazyVim more recently.
