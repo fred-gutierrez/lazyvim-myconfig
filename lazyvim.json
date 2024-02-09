@@ -2,7 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.dap.nlua",
-    "lazyvim.plugins.extras.lang.clangd"
+    "lazyvim.plugins.extras.lang.typescript"
   ],
   "news": {
     "NEWS.md": "2123"
