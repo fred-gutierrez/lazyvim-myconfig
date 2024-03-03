@@ -26,6 +26,7 @@ return {
         "eslint-lsp",
         "svelte-language-server",
         "json-lsp",
+        "python-lsp-server",
         "css-lsp",
         "cssmodules-language-server",
         "html-lsp",
