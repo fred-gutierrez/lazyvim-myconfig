@@ -1,18 +1,27 @@
 return {
-  "nvim-lualine/lualine.nvim",
-  opts = {
-    sections = {
-      -- Removes the arrow-right of the mode default section
-      lualine_a = { { "mode", separator = { left = "", right = "" } } },
+  {
+    "nvim-lualine/lualine.nvim",
+    opts = {
+      sections = {
+        -- Removes the arrow-right of the mode default section
+        -- lualine_a = { { "mode", separator = { left = "", right = "" } } },
 
-      -- I don't really know what this was, so I removed it lol
-      lualine_x = {},
+        -- I don't really know what this was, so I removed it lol
+        lualine_x = {},
 
-      -- Removes the progress and location
-      lualine_y = {},
+        -- Removes the progress and location
+        lualine_y = {},
 
-      -- Removes the default clock from lualine
-      lualine_z = {},
+        -- Removes the default clock from lualine
+        lualine_z = {},
+      },
+    },
+  },
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      timeout = 500,
+      on_open = false,
     },
   },
 }
