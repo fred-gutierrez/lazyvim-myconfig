@@ -17,11 +17,4 @@ return {
       },
     },
   },
-  {
-    "rcarriga/nvim-notify",
-    opts = {
-      timeout = 500,
-      on_open = false,
-    },
-  },
 }
