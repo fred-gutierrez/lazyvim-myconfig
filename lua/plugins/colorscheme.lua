@@ -1,12 +1,12 @@
 return {
   {
-    -- "oxfist/night-owl.nvim"
-    "EdenEast/nightfox.nvim",
+    "oxfist/night-owl.nvim",
+    -- "EdenEast/nightfox.nvim",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "carbonfox",
+      colorscheme = "night-owl",
     },
   },
 }
